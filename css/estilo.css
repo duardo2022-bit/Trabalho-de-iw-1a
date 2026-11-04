@@ -1,0 +1,127 @@
+    :root {
+    --tinta: #22303c;
+    --fundo: #f6f8fa;
+    --excel: #1e7145;
+    --word: #2b579a;
+    --ppt: #c8472b;
+}
+
+body {
+    font-family: 'Lexend', system-ui, sans-serif;
+    color: var(--tinta);
+    background: var(--fundo);
+}
+
+.navbar {
+    background: var(--tinta);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: #fff !important;
+}
+
+.navbar .nav-link {
+    color: #d5dde5;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.hero {
+    background: var(--tinta);
+    color: #fff;
+    padding: 4rem 0;
+}
+
+.hero h1 {
+    font-weight: 700;
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    max-width: 20ch;
+}
+
+.card {
+    border: 0;
+    border-top: 6px solid var(--tinta);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .12);
+}
+
+.card-img-top {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    display: block;
+}
+
+.quadro {
+    border: 2px solid var(--tinta);
+    border-radius: 0;
+    border-top-width: 2px;
+    box-shadow: none;
+    background: #fff;
+}
+
+.quadro img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-bottom: 2px solid var(--tinta);
+    display: block;
+}
+
+.btn-main {
+    background: var(--tinta);
+    color: #fff;
+}
+
+.btn-main:hover {
+    background: #111b24;
+    color: #fff;
+}
+
+.tag {
+    font-size: .8rem;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 4px;
+    padding: .15rem .5rem;
+    background: var(--tinta);
+}
+
+.tag.excel { background: var(--excel); }
+.tag.word { background: var(--word); }
+.tag.ppt { background: var(--ppt); }
+
+kbd {
+    background: var(--tinta);
+}
+
+.fb-ok {
+    color: #0a7a3d;
+    font-weight: 600;
+}
+
+.fb-erro {
+    color: #b3261e;
+    font-weight: 600;
+}
+
+.list-group-item {
+    border-radius: 0;
+}
+
+.c-excel { border-top-color: var(--excel); }
+.c-word { border-top-color: var(--word); }
+.c-ppt { border-top-color: var(--ppt); }
+
+.t-excel { color: var(--excel); }
+.t-word { color: var(--word); }
+.t-ppt { color: var(--ppt); }
+
+footer {
+    background: var(--tinta);
+    color: c9d3dc;
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#fbe9e4"/><rect width="400" height="34" fill="#c8472b"/><text x="14" y="23" font-family="sans-serif" font-size="15" fill="#fff" font-weight="700">PowerPoint  |  F5</text>
+<g fill="#fff" stroke="#e3a99b"><rect x="14" y="48" width="64" height="40"/><rect x="14" y="98" width="64" height="40"/><rect x="14" y="148" width="64" height="40"/></g>
+<rect x="95" y="48" width="290" height="190" fill="#fff" stroke="#c8472b" stroke-width="2"/><text x="115" y="92" font-family="sans-serif" font-size="22" font-weight="700" fill="#c8472b">Título do slide</text>
+<g fill="#e3a99b"><rect x="115" y="112" width="150" height="7"/><rect x="115" y="128" width="120" height="7"/><rect x="115" y="144" width="140" height="7"/></g>
+<circle cx="320" cy="170" r="40" fill="#c8472b"/><path d="M320 170 L320 130 A40 40 0 0 1 358 158z" fill="#f0a090"/>
+<text x="95" y="270" font-family="sans-serif" font-size="14" fill="#22303c">Slides, temas e apresentação</text></svg>
